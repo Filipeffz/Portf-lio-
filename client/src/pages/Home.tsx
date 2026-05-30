@@ -58,18 +58,23 @@ export default function Home() {
               
             </p>
             <div className="flex gap-4 justify-center pt-8">
-              <Button 
-                className="bg-cyan-500 hover:bg-cyan-600 text-black font-semibold px-8 py-6 text-lg rounded-lg glow-cyan"
-              >
-                Ver Projetos
-              </Button>
-              <Button 
-                variant="outline" 
-                className="border-purple-500 text-purple-400 hover:bg-purple-500/10 px-8 py-6 text-lg rounded-lg"
-              >
-                Contato
-              </Button>
-            </div>
+               <a href="#projects">
+            <Button
+              className="bg-cyan-500 hover:bg-cyan-600 text-black font-semibold px-8 py-6 text-lg rounded-lg glow-cyan"
+            >
+        Ver Projetos
+    </Button>
+  </a>
+
+  <a href="#contact">
+    <Button
+      variant="outline"
+      className="border-purple-500 text-purple-400 hover:bg-purple-500/10 px-8 py-6 text-lg rounded-lg"
+    >
+      Contato
+    </Button>
+  </a>
+</div>
           </div>
         </div>
 
